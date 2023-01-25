@@ -2,6 +2,6 @@
 
 int main(void) {
   char str[] = "hello";
-  printf("%s", str);
+  printf("%s %d", str, strlen(str));
   return 0;
 }
